@@ -39,5 +39,5 @@ class ArticlesController < ApplicationController
         flash.notice = "Article '#{@article.title}' Update!"
       
         redirect_to article_path(@article)
-      end
+    end
 end
